@@ -13,35 +13,6 @@ The bot supports both:
 - **OpenAI GPT Models** (e.g., `gpt-3.5-turbo`)
 - **Ollama Local Models** (e.g., `llama3.1`)
 
-## Project Structure
-
-```
-portfolio-data-analysis-chatbot/
-│
-├── data/
-│   └── physical_exam_study.csv
-│
-├── src/
-│   └── dataframe_bot/
-│       ├── __init__.py
-│       ├── main.py
-│       └── util/
-│           ├── __init__.py
-│           ├── parser.py
-│           ├── prompt.py
-│           └── tools.py
-│
-├── venv/                  (virtual environment folder)
-├── .env                   (environment variables configuration)
-├── .gitignore             (Git ignore file)
-├── example_env            (sample environment configuration)
-├── challenge_b_ollama.ipynb
-├── challenge_b_openai.ipynb
-├── nlp_assignment.pdf
-├── README.md              (project description and instructions)
-└── requirements.txt       (Python dependencies file)
-```
-
 ## Setup Instructions
 
 ### Prerequisites
