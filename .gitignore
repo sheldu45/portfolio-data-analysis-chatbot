@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+.env
+artidis_nlp_assignment.zip
+nlp_assingment.pdf
