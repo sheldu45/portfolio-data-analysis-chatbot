@@ -93,6 +93,8 @@ Depending on your choice of language model (OpenAI or Ollama), follow the corres
   python src/dataframe_bot/main.py --openai --model gpt-3.5-turbo --data data/physical_exam_study.csv
   ```
 
+Note: When using the Jupyter notebook, don't forget to change the kernel to use your virtual environment's Python interpreter (venv/bin/python3). You can do this by selecting the kernel from the top-right corner of the notebook interface.
+
 ---
 
 ### Option 2: Using Ollama with Local Models
@@ -166,6 +168,8 @@ Depending on your choice of language model (OpenAI or Ollama), follow the corres
   ```bash
   python src/dataframe_bot/main.py --model llama3.1 --data data/physical_exam_study.csv
   ```
+  
+Note: When using the Jupyter notebook, don't forget to change the kernel to use your virtual environment's Python interpreter (venv/bin/python3). You can do this by selecting the kernel from the top-right corner of the notebook interface.
 
 ---
 
